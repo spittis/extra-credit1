@@ -1,5 +1,7 @@
 # LMS Homepage
 
+All Nations University College homepage for students.
+
 ## Getting Started
 
 Users can begin by downloading a zip file of this project and opening the index.html in a browser of their choosing. 
