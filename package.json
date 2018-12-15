@@ -1,0 +1,30 @@
+{
+  "name": "extra-credit_1",
+  "version": "1.0.0",
+  "description": "## Getting Started",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaclynflomen/extra-credit_1.git"
+  },
+  "author": "\"Jaclyn Flomen\"",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jaclynflomen/extra-credit_1/issues"
+  },
+  "homepage": "https://github.com/jaclynflomen/extra-credit_1#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.2"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "extra",
+    "credit",
+    "assignment",
+    "1"
+  ]
+}
