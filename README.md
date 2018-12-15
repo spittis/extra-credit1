@@ -31,7 +31,10 @@ Open the index.html in a browser, Chrome works best.
 ## Built With
 
 * Javascript - used to load content onto the main page.
-
+* Gulp - used to convert SASS to CSS and minify files
+* Sass - used to minimize repetitive CSS and organize 
+* PHP - used to connect to database
+* mySQL - hosts the database that stores images, video, and text for the webpage
 
 ## Authors
 
