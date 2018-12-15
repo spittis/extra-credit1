@@ -30,7 +30,7 @@ Open the index.html in a browser, Chrome works best.
 
 ## Built With
 
-* [Vue.js](https://vuejs.org/) - The JavaScript framework that helps create a more maintainable and testable code base.
+* Javascript - used to load content onto the main page.
 
 
 ## Authors
@@ -44,6 +44,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Continuing With Updates
 
-* Since the main content (images/text) is stored outside of the website files, it is easier to manage and you can manipulate data quickly
-* To update any content including images, videos, or text, you can simply make any adjustments on the database and that information will be grabbed and inserted the same on the page every instance it is loaded
-* Making any changes to information in the database will automatically be changed on the webpage
+* The main content (images and text) is stored in a Javascript object, making it simple to change and insert data
+* To update content, one can make changes by changing the image location or text itself in the classData.js file, which will be automatically changed on the index.html
