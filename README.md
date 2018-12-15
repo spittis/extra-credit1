@@ -1,4 +1,4 @@
-# Extra Credit 1
+# LMS Homepage
 
 ## Getting Started
 
@@ -13,11 +13,15 @@ From the command line:
 ```
 $ git init
 ```
+```
 Clone this repository
+```
 ```
 $ git clone https://github.com/spittis/extra-credit1.git
 ```
+```
 $ cd extra-credit1
+```
 ```
 Open the index.html in a browser, Chrome works best.
 ```
@@ -36,6 +40,8 @@ Open the index.html in a browser, Chrome works best.
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-## Acknowledgments
+## Continuing With Updates
 
-* 
+* Since the main content (images/text) is stored outside of the website files, it is easier to manage and you can manipulate data quickly
+* To update any content including images, videos, or text, you can simply make any adjustments on the database and that information will be grabbed and inserted the same on the page every instance it is loaded
+* Making any changes to information in the database will automatically be changed on the webpage

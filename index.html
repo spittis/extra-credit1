@@ -27,10 +27,10 @@
         <!-- side nav -->
           <nav class="sNav">
             <ul class="list-unstyled text-uppercase text-muted">
-              <li><i class="fa fa-home"></i>Dashboard</li>
-              <li><i class="fa fa-folder-o"></i>File Manager</li>
-              <li><span class="glyphicon glyphicon-envelope"></span>Email</li>
-              <li><i class="fa fa-newspaper-o"></i>News</li>
+              <li class="navi"><i class="fa fa-home"></i></li>
+              <li class="navi"><i class="fa fa-folder-o"></i></li>
+              <li class="navi"><span class="glyphicon glyphicon-envelope"></span></li>
+              <li class="navi"><i class="fa fa-newspaper-o"></i></li>
             </ul>          	
           </nav>
         </div>
@@ -66,11 +66,11 @@
       <div class="profPanel panel panel-default">
         <div class="profPanelText">
           <!-- <h2 class="hidden">Prof Panel</h2> -->
-          <p class="text-muted">Oil &amp; Gas - <span class="text-primary">BCU-1001</span></p>
+          <p id="classProf" class="text-muted"></p>
           <p>Professor - <span id="profname"></span></p>
-          <ul class="list-inline" id="classtimes">
-            <li><span  class=" fa fa-clock-o fa-flip-horizontal"></span></li>
-            <li><span  class="fa fa-clock-o fa-flip-horizontal"></span></li>
+          <ul class="list-inline">
+            <li><span class="fa fa-clock-o fa classtimes"></span></li>
+            <li><span class="fa fa-clock-o fa classtimes"></span></li>
           </ul>
         </div>
         <img id="profImg" src="" alt="prof image" class="img-circle profileImg" >        
@@ -114,10 +114,10 @@
         <section class="col-sm-11 weeklySched ">
           <h2 class="hidden">Schedule</h2>
           <ul class="list-unstyled list-inline">
-            <li>Lecture Materials</li>
-            <li>Tutorials &amp; Labs</li>
-            <li>Quizzes</li>
-            <li><div class="dropdown">
+            <li class="contents"></li>
+            <li class="contents"></li>
+            <li class="contents"></li>
+            <li class="contents"><div class="dropdown">
                   <p class="dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown">
                     Discussion Groups
                   </p>
@@ -125,7 +125,7 @@
                     <li class="text-muted"><div class="topPanel"><i class="fa fa-caret-up"></i><p>Discussion Groups</p></div></li>
                     <li role="presentation"><a role="menuitem" tabindex="-1" href="#"><span class="emptyCircle"></span><p class="listText"><span>some</span><br>text</p></a></li>
                     <li role="presentation" class="divider"></li>
-                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#"><span class="emptyCircle"></span><p <p class="listText"><span>some</span><br>text</p></a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#"><span class="emptyCircle"></span><p class="listText"><span>some</span><br>text</p></a></li>
                   </ul>
                 </div></li>
           </ul>
